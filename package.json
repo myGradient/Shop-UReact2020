@@ -20,6 +20,12 @@
   "eslintConfig": {
     "extends": "react-app"
   },
+  "eslintIgnore": [
+    "hello.js",
+    "world.js",
+    "node_modules/",
+    "0supportFiles/"
+  ],
   "browserslist": {
     "production": [
       ">0.2%",
